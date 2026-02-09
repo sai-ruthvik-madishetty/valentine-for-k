@@ -323,3 +323,64 @@ body.modal-open .page {
   opacity: 0.6;
 }
 
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+@media (max-width: 600px) {
+
+  body {
+    padding: 20px 0;
+  }
+
+  .page {
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  .glass {
+    padding: 30px 20px;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .question {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  #yesBtn,
+  #noBtn {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+
+  /* Hearts stay inside screen */
+  .hearts span {
+    font-size: 18px;
+  }
+
+  /* Gallery mobile */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .final-note {
+    font-size: 0.9rem;
+    margin-top: 25px;
+  }
+}
+
